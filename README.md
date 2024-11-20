@@ -1,7 +1,5 @@
-Claro! Vou ajustar o código para incluir o seu **Access Token** fornecido. Aqui está a versão corrigida com seu token.
-
-### **Código Completo da Aplicação em Next.js com seu Token**
-
+GRUPU: Felipe Berthoux de Oliveira Souza - 10322325 e João Pedro Gonzaga - 10386522
+      
 **1. `pages/index.js`** 
 
 Este arquivo vai fazer a requisição à API usando seu token e renderizar os cards dos heróis.
