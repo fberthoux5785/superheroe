@@ -1,4 +1,4 @@
-GRUPU: Felipe Berthoux de Oliveira Souza - 10322325 e João Pedro Gonzaga - 10386522
+GRUPO: Felipe Berthoux de Oliveira Souza - 10322325 e João Pedro Gonzaga - 10386522
       
 **1. `pages/index.js`** 
 
