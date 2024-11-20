@@ -12,7 +12,7 @@ import axios from "axios";
 import HeroCard from "../components/HeroCard";
 import styles from "../styles/Home.module.css";
 
-const ACCESS_TOKEN = "136c3a38c87e0b1984b69f8896b03740"; // Seu token aqui
+const ACCESS_TOKEN = "136c3a38c87e0b1984b69f8896b03740"; 
 const BASE_URL = "https://superheroapi.com/api.php/";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchHeroes = async () => {
-      const heroIds = [200, 465]; // IDs dos heróis fixos
+      const heroIds = [200, 465]; 
       const heroPromises = heroIds.map((id) =>
         axios.get(`${BASE_URL}${ACCESS_TOKEN}/${id}`)
       );
