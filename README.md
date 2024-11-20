@@ -188,13 +188,3 @@ Para rodar o projeto, execute o seguinte comando no terminal:
 ```bash
 npm run dev
 ```
-
-Isso iniciará o servidor de desenvolvimento. Você pode acessar a aplicação em [http://localhost:3000](http://localhost:3000).
-
-### Observações:
-
-- **Token de Acesso**: Não se esqueça de substituir `"seu_token_aqui"` no código pelo **Access Token** gerado no site [SuperheroAPI](https://superheroapi.com).
-- **Requisições**: O código faz as requisições para a API ao carregar a página, usando os **IDs fixos** de heróis (200 e 465).
-- **Estilo e Layout**: O layout dos cards e a estrutura foram mantidos conforme o original, com a exibição das informações de inteligência e força.
-
-Essa estrutura mantém a simplicidade e a clareza na visualização dos dados, além de garantir que a aplicação funcione adequadamente com Next.js.
