@@ -2,7 +2,7 @@ Claro! Vou ajustar o código para incluir o seu **Access Token** fornecido. Aqui
 
 ### **Código Completo da Aplicação em Next.js com seu Token**
 
-**1. `pages/index.js`** (Página principal)
+**1. `pages/index.js`** 
 
 Este arquivo vai fazer a requisição à API usando seu token e renderizar os cards dos heróis.
 
@@ -48,7 +48,7 @@ export default function Home() {
 }
 ```
 
-**2. `components/HeroCard.js`** (Componente para exibir os cards)
+**2. `components/HeroCard.js`** 
 
 Este componente exibe as informações dos heróis.
 
@@ -142,13 +142,3 @@ html, body {
   border-radius: 5px;
 }
 ```
-
-### Como rodar o projeto:
-
-1. **Inicie o servidor de desenvolvimento** executando o seguinte comando:
-
-```bash
-npm run dev
-```
-
-2. Acesse a aplicação em [http://localhost:3000](http://localhost:3000) para ver os resultados.
